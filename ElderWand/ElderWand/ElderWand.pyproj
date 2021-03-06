@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>34a82b7f-6671-480a-948a-2ed9e8a8e8e7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ElderWand.py</StartupFile>
+    <StartupFile>WandTracker\ImgMask.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ElderWand.py" />
     <Compile Include="WandTracker\classificationTutorial.py" />
     <Compile Include="WandTracker\common.py" />
     <Compile Include="WandTracker\digitTrainedTest.py" />
@@ -33,6 +32,7 @@
     <Compile Include="WandTracker\WandTracker.Simple\Tracker.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ElderWand\" />
     <Folder Include="WandTracker\" />
     <Folder Include="WandTracker\Shapes\" />
     <Folder Include="WandTracker\Shapes\circle\" />
